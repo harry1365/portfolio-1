@@ -7,117 +7,169 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">Harsh Rasal</div>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#repos">Repos</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="button button-outline" href="Harry Resume.pdf" target="_blank" rel="noopener noreferrer">Download Resume</a>
+    </div>
+  </header>
+
   <main class="page-container">
-    <section class="hero">
-      <div class="hero-content">
-        <p class="eyebrow">Hello, I’m</p>
-        <h1>Harsh Rasal</h1>
-        <p class="subtitle">AI & Machine Learning Diploma Student | Full-Stack Developer</p>
-        <p class="hero-meta">Kalyan, Mumbai, Maharashtra · harshrasal17@gmail.com · +91 79777 24822</p>
-        <div class="links-row">
-          <a href="https://github.com/harry1365" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="https://www.linkedin.com/in/harsh-rasal-557a27382/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a href="Harry Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+    <section class="hero-panel">
+      <div class="hero-text">
+        <p class="eyebrow">AI | Full-Stack | Problem Solver</p>
+        <h1>Hi, I’m <span>Harsh Rasal</span></h1>
+        <p class="hero-lead">AI & Machine Learning diploma student building scalable full-stack applications with strong backend architecture and polished user experiences.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">View Projects</a>
+          <a class="button button-secondary" href="https://github.com/harry1365" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+        </div>
+        <div class="hero-meta-grid">
+          <div><strong>Location</strong> Mumbai, India</div>
+          <div><strong>Email</strong> <a href="mailto:harshrasal17@gmail.com">harshrasal17@gmail.com</a></div>
+          <div><strong>Phone</strong> +91 79777 24822</div>
+          <div><strong>LinkedIn</strong> <a href="https://www.linkedin.com/in/harsh-rasal-557a27382/" target="_blank" rel="noopener noreferrer">linkedin.com/in/harsh-rasal-557a27382</a></div>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-card-inner">
+          <p class="hero-card-title">Profile Summary</p>
+          <p>AI & Machine Learning diploma student with a strong foundation in logical problem-solving, rapid prototyping, and collaborative development. I turn AI concepts into production-ready full-stack solutions.</p>
+          <div class="hero-card-stats">
+            <div><strong>3+</strong> years coding</div>
+            <div><strong>9</strong> public repos</div>
+            <div><strong>4</strong> featured projects</div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="section-card">
-      <h2>About</h2>
-      <p>
-        AI & Machine Learning diploma student with a strong foundation in logical problem-solving, rapid prototyping, and collaborative development. I bridge abstract AI concepts with production-ready full-stack applications and focus on high-performance backends and polished user interfaces.
-      </p>
-    </section>
-
-    <section class="section-card split-grid">
-      <div>
-        <h2>Education</h2>
-        <p><strong>Diploma in Artificial Intelligence & Machine Learning</strong><br />S.H. Jondhale Polytechnic, Dombivli | 2024 - Present</p>
-        <p><strong>Current:</strong> 2nd Year · 72% aggregate</p>
+    <section id="about" class="section-card section-highlight">
+      <div class="section-heading">
+        <span class="section-label">About Me</span>
+        <h2>Driven AI & Full-Stack Developer</h2>
       </div>
-      <div>
-        <h2>Core Skills</h2>
-        <div class="tag-grid">
-          <span class="tag">Java</span>
-          <span class="tag">JavaScript</span>
-          <span class="tag">Python</span>
-          <span class="tag">C</span>
-          <span class="tag">HTML5</span>
-          <span class="tag">CSS3</span>
-          <span class="tag">Spring Boot</span>
-          <span class="tag">Next.js</span>
-          <span class="tag">React</span>
-          <span class="tag">Node.js</span>
-          <span class="tag">Tailwind CSS</span>
-          <span class="tag">Git & GitHub</span>
-          <span class="tag">JWT Auth</span>
-          <span class="tag">REST APIs</span>
-          <span class="tag">Integration Testing</span>
-          <span class="tag">ML Concepts</span>
-          <span class="tag">Algorithmic Thinking</span>
+      <p>Specialized in building scalable backend systems, modern web experiences, and AI-powered products. I combine strong programming fundamentals with architecture-first thinking to deliver reliable applications quickly.</p>
+      <div class="about-grid">
+        <div class="about-panel">
+          <h3>Education</h3>
+          <p><strong>Diploma in Artificial Intelligence & Machine Learning</strong><br />S.H. Jondhale Polytechnic, Dombivli | 2024 - Present</p>
+          <p>Current: 2nd Year · 72% aggregate</p>
+        </div>
+        <div class="about-panel">
+          <h3>Core Skills</h3>
+          <div class="tag-grid">
+            <span class="tag">Java</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Python</span>
+            <span class="tag">Spring Boot</span>
+            <span class="tag">Next.js</span>
+            <span class="tag">React</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">JWT Auth</span>
+            <span class="tag">REST APIs</span>
+            <span class="tag">Integration Testing</span>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="section-card">
-      <h2>Featured Projects</h2>
+    <section id="projects" class="section-card">
+      <div class="section-heading">
+        <span class="section-label">Projects</span>
+        <h2>Featured Work</h2>
+      </div>
       <div class="project-grid">
         <article class="project-card">
           <h3>Jarvis AI Engine</h3>
-          <p>High-performance AI engine designed for massive token generation and efficient parameter handling. Built for rapid inference on approximately 1M parameters with custom throughput optimization.</p>
-          <p class="project-tags">AI · Optimization · Data Engineering</p>
-          <p class="project-action"><a href="https://github.com/harry1365/rocketride-server" target="_blank" rel="noopener noreferrer">View on GitHub</a></p>
+          <p>High-throughput AI engine built for fast token generation and efficient inferencing across large parameter counts.</p>
+          <div class="project-footer">
+            <span class="project-tags">AI · Optimization · Data Engineering</span>
+            <a href="https://github.com/harry1365/rocketride-server" target="_blank" rel="noopener noreferrer">View Code</a>
+          </div>
         </article>
         <article class="project-card">
           <h3>AI Content PRO Platform</h3>
-          <p>A full-stack AI content generation suite with Spring Boot backend, Next.js frontend, JWT authentication, and performance-optimized industrial UI design.</p>
-          <p class="project-tags">Full-Stack · Security · Testing</p>
-          <p class="project-action"><a href="https://github.com/harry1365/ai-llm-" target="_blank" rel="noopener noreferrer">View on GitHub</a></p>
+          <p>Full-stack platform with Spring Boot backend and Next.js frontend, featuring JWT authentication and performance-first UI design.</p>
+          <div class="project-footer">
+            <span class="project-tags">Full-Stack · Security · Testing</span>
+            <a href="https://github.com/harry1365/ai-llm-" target="_blank" rel="noopener noreferrer">View Code</a>
+          </div>
         </article>
         <article class="project-card">
           <h3>InfiniCode Ecosystem</h3>
-          <p>Full-stack platform focused on backend stability and environment scalability. Includes workflow optimization for seamless collaboration and deployment-readiness.</p>
-          <p class="project-tags">Backend · Architecture · Deployment</p>
-          <p class="project-action"><a href="https://github.com/harry1365/college-pro" target="_blank" rel="noopener noreferrer">View on GitHub</a></p>
+          <p>Platform focused on backend reliability, environment scalability, and team-friendly workflows for collaborative development.</p>
+          <div class="project-footer">
+            <span class="project-tags">Backend · Architecture · Deployment</span>
+            <a href="https://github.com/harry1365/college-pro" target="_blank" rel="noopener noreferrer">View Code</a>
+          </div>
         </article>
         <article class="project-card">
-          <h3>Console-Based Checkers Engine</h3>
-          <p>Command-line two-player checkers engine in C with real-time board state tracking, legal move validation, and optimized game-state performance.</p>
-          <p class="project-tags">C · Algorithms · Game Engine</p>
+          <h3>Console Checkers Engine</h3>
+          <p>Command-line game engine in C with board tracking, move validation, and optimized decision flow.</p>
+          <div class="project-footer">
+            <span class="project-tags">C · Algorithms · Game Engine</span>
+            <a href="https://github.com/harry1365/Portfolio" target="_blank" rel="noopener noreferrer">View Code</a>
+          </div>
         </article>
       </div>
     </section>
 
-    <section class="section-card">
-      <h2>GitHub Projects</h2>
-      <p>Explore live code repositories for my AI systems, portfolio work, and development experiments.</p>
-      <ul>
-        <li><a href="https://github.com/harry1365/rocketride-server" target="_blank" rel="noopener noreferrer"><strong>rocketride-server</strong></a> — High-performance AI pipeline engine with a C++ core and Python-extensible nodes, built for scalable LLM workflows.</li>
-        <li><a href="https://github.com/harry1365/ai-llm-" target="_blank" rel="noopener noreferrer"><strong>ai-llm-</strong></a> — Vercel deployment project for modern AI web experiences.</li>
-        <li><a href="https://github.com/harry1365/base-sepolia-" target="_blank" rel="noopener noreferrer"><strong>base-sepolia-</strong></a> — Blockchain or Ethereum-related development work.</li>
-        <li><a href="https://github.com/harry1365/college-pro" target="_blank" rel="noopener noreferrer"><strong>college-pro</strong></a> — College-focused application or academic project.</li>
-        <li><a href="https://github.com/harry1365/Jrvis" target="_blank" rel="noopener noreferrer"><strong>Jrvis</strong></a> — AI tooling and automation experiment.</li>
-        <li><a href="https://github.com/harry1365/main-model" target="_blank" rel="noopener noreferrer"><strong>main-model</strong></a> — AI model research and prototyping.</li>
-        <li><a href="https://github.com/harry1365/Portfolio" target="_blank" rel="noopener noreferrer"><strong>Portfolio</strong></a> — Earlier portfolio website and web design work.</li>
-        <li><a href="https://github.com/harry1365/portfolio-1" target="_blank" rel="noopener noreferrer"><strong>portfolio-1</strong></a> — Current website repository for this portfolio.</li>
-        <li><a href="https://github.com/harry1365/tech-spur" target="_blank" rel="noopener noreferrer"><strong>tech-spur</strong></a> — AWS and cloud-based development experiments.</li>
-      </ul>
+    <section id="repos" class="section-card section-highlight">
+      <div class="section-heading">
+        <span class="section-label">GitHub</span>
+        <h2>Public Repositories</h2>
+      </div>
+      <div class="repo-grid">
+        <a class="repo-card" href="https://github.com/harry1365/rocketride-server" target="_blank" rel="noopener noreferrer">
+          <h3>rocketride-server</h3>
+          <p>AI pipeline engine with C++ core and Python integration for scalable LLM workflows.</p>
+        </a>
+        <a class="repo-card" href="https://github.com/harry1365/ai-llm-" target="_blank" rel="noopener noreferrer">
+          <h3>ai-llm-</h3>
+          <p>Vercel deployment project for AI-powered frontend applications.</p>
+        </a>
+        <a class="repo-card" href="https://github.com/harry1365/base-sepolia-" target="_blank" rel="noopener noreferrer">
+          <h3>base-sepolia-</h3>
+          <p>Blockchain and Ethereum tooling work.</p>
+        </a>
+        <a class="repo-card" href="https://github.com/harry1365/college-pro" target="_blank" rel="noopener noreferrer">
+          <h3>college-pro</h3>
+          <p>Academic and college project development repository.</p>
+        </a>
+        <a class="repo-card" href="https://github.com/harry1365/Jrvis" target="_blank" rel="noopener noreferrer">
+          <h3>Jrvis</h3>
+          <p>AI automation and tooling experiment.</p>
+        </a>
+        <a class="repo-card" href="https://github.com/harry1365/tech-spur" target="_blank" rel="noopener noreferrer">
+          <h3>tech-spur</h3>
+          <p>AWS and cloud-focused development repository.</p>
+        </a>
+      </div>
     </section>
 
-    <section class="section-card">
-      <h2>Contact</h2>
-      <p>Let’s connect if you want to collaborate on AI, full-stack applications, or systems engineering.</p>
-      <ul>
+    <section id="contact" class="section-card">
+      <div class="section-heading">
+        <span class="section-label">Contact</span>
+        <h2>Let’s build something together</h2>
+      </div>
+      <p>If you have a project, internship, or collaboration idea, feel free to reach out via email or GitHub.</p>
+      <ul class="contact-list">
         <li><strong>Email:</strong> <a href="mailto:harshrasal17@gmail.com">harshrasal17@gmail.com</a></li>
         <li><strong>Alternate Email:</strong> <a href="mailto:438jhondhale@gmail.com">438jhondhale@gmail.com</a></li>
         <li><strong>Phone:</strong> +91 79777 24822</li>
-        <li><strong>GitHub:</strong> <a href="https://github.com/harry1365" target="_blank" rel="noopener noreferrer">github.com/harry1365</a></li>
         <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/harsh-rasal-557a27382/" target="_blank" rel="noopener noreferrer">linkedin.com/in/harsh-rasal-557a27382</a></li>
       </ul>
     </section>
 
     <footer class="footer-note">
-      <p>Portfolio built for GitHub Pages. Resume and project details are pulled from local resume data and your GitHub repositories.</p>
+      <p>Portfolio built for GitHub Pages. Resume and project details are pulled from the local resume and public GitHub profile.</p>
     </footer>
   </main>
 </body>
