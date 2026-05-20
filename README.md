@@ -6,7 +6,7 @@ This is a static personal portfolio website built for GitHub Pages. It includes 
 
 - `index.html` — main portfolio page
 - `styles.css` — styling for the page
-- `Harry Resume.pdf` — your resume file
+- `Harry Resume.pdf` — downloadable portfolio PDF
 
 ## What’s included
 
