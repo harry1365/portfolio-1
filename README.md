@@ -1,22 +1,33 @@
 # Harsh Rasal Portfolio
 
-This is a simple static portfolio website ready to deploy on GitHub Pages.
+This is a static personal portfolio website built for GitHub Pages. It includes resume highlights, skills, featured projects, GitHub repositories, and contact details.
 
 ## Files
 
 - `index.html` — main portfolio page
 - `styles.css` — styling for the page
+- `Harry Resume.pdf` — your resume file
+
+## What’s included
+
+- About section with your AI and full-stack developer profile
+- Resume summary and education
+- Core skills and technology tags
+- Featured projects from your resume
+- GitHub repository list based on your public profile
+- Contact links for GitHub, LinkedIn, email, and phone
 
 ## How to publish on GitHub
 
-1. Create a new GitHub repository, for example `portfolio`.
-2. Add these files to the repository.
+1. Create a new GitHub repository named `portfolio-1` or update an existing one.
+2. Add these files to the repo.
 3. Commit and push to the `main` branch.
-4. In the repository settings, enable GitHub Pages and choose the `main` branch root as the source.
-5. Visit the published URL shown by GitHub Pages.
+4. In repository settings, open `Pages` and choose the `main` branch root.
+5. Save and wait a few minutes for the site to publish.
 
 ## Notes
 
-- The page already includes your GitHub and LinkedIn links.
-- If you want to add projects or more sections, update `index.html` and `styles.css`.
+- GitHub Pages is free for public repositories.
+- You do not need to pay for this portfolio site.
+- If you want, I can add more detail to each project or include a downloadable resume button.
 
